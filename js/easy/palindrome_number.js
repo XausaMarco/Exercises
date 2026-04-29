@@ -43,15 +43,14 @@ var isPalindrome2 = function (x) {
  * Idea: do not convert the number to string, use modules and divisions by 10
  */
 var isPalindromeOpt = function (x) {
-
-  let num =x;
-  let rev =0;
-  while(num!=0){
-    rev = rev*10 + num%10;
-    num = Math.trunc(num/10);
+  let num = x;
+  let rev = 0;
+  while (num != 0) {
+    rev = rev * 10 + (num % 10);
+    num = Math.trunc(num / 10);
   }
-  
-  return x===rev;
+
+  return x === rev;
 }; //Beats 46%, expected bettere results, room for improvements
 
 const input = 373737373737373;
