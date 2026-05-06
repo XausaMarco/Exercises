@@ -69,7 +69,7 @@ var rotate = function (nums, k) {
     }
 };
 /**
- * Fixed version with do {} while() loop. THis is somehow still worse than first algorithm.
+ * Fixed version with do {} while() loop. This is somehow still worse than first algorithm.
  * if nums.length % k !== 0 the dowhile will swapp all values leading to swaps === nums.length 
  *   ( the loop will close as once the values have all been substituted, we'll get back to startIndex anyway)
  * if nums.length % k === 0 after returning to the initial index, the doWhile ends, we increase index
