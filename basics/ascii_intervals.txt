@@ -1,0 +1,5 @@
+| Category                | ASCII Range (Decimal) | Example               |
+| ----------------------- | --------------------- | --------------------- |
+| Numbers (0-9)           | 48 – 57               | '0' is 48, '9' is 57  |
+| Uppercase Letters (A-Z) | 65 – 90               | 'A' is 65, 'Z' is 90  |
+| Lowercase Letters (a-z) | 97 – 122              | 'a' is 97, 'z' is 122 |
